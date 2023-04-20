@@ -8,7 +8,7 @@ const gallery = (function () {
 
     function buildThumbnail (image) {
         const  BUTTON = document.createElement("button")
-        BUTTON.addEventListener("click", changeFocus)
+        BUTTON.addEventListener("mouseover", changeFocus)
         BUTTON.innerHTML = `<img src="${image}" alt="galleri miniature" class="gallery__thumbnail">`
         BUTTON.classList.add("gallery__button")
         THUMBNAILS.append(BUTTON)
