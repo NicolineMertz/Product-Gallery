@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  .gallery__thumbnails {
+    display: flex;
+  }
+
+  .gallery__thumbnail {
+    width: 200px;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  .gallery__focusedImage {
+    width: 400px;
+    border-radius: 5px;
+  }
